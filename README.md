@@ -96,10 +96,3 @@ CREATE TABLE employees (
 
 4. Update your DB credentials in backend config
 
-
-
-## License
-
-This project is for educational purposes.
-
----
