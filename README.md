@@ -4,7 +4,6 @@
 
 A full-stack Employee Management Web Application that allows users to perform CRUD operations (Create, Read, Update, Delete) on employee records. The backend is built using Node.js and Express, while the frontend is developed using React (Vite). MySQL is used as the database.
 
----
 
 ## Features
 
@@ -12,9 +11,7 @@ A full-stack Employee Management Web Application that allows users to perform CR
 * View employee list
 * Update employee details
 * Delete employee records
-* Responsive UI using Bootstrap
 
----
 
 ## Tech Stack
 
@@ -35,8 +32,6 @@ A full-stack Employee Management Web Application that allows users to perform CR
 
 * MySQL
 
----
-
 ## Dependencies
 
 ### Frontend (Vite)
@@ -53,44 +48,30 @@ npm install
 npm install express cors mysql2 nodemon
 ```
 
----
-
 ## How to Run the Project
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/employee-management-system.git
+git clone https://github.com/shreyadiwakar/employee-management-system.git
 cd employee-management-system
 ```
-
----
 
 ### Setup Backend
 
 ```bash
-cd server
+cd node-server
 npm install
-npm run dev
+npm start
 ```
-
----
 
 ### Setup Frontend (Vite)
 
 ```bash
-cd client
+cd frontEnd
 npm install
 npm run dev
 ```
-
-Frontend will run on:
-
-```
-http://localhost:5173
-```
-
----
 
 ## Database Setup
 
@@ -98,7 +79,7 @@ http://localhost:5173
 2. Create database:
 
 ```sql
-CREATE DATABASE employee_db;
+CREATE DATABASE dummyemployees;
 ```
 
 3. Create table:
@@ -109,29 +90,13 @@ CREATE TABLE employees (
   EmployeeName VARCHAR(100),
   MobileNumber VARCHAR(15),
   Department VARCHAR(50),
-  Salary DECIMAL(10,2)
+  Salary DECIMAL(18,2)
 );
 ```
 
 4. Update your DB credentials in backend config
 
----
 
-## Screenshots
-
-(Add screenshots here)
-
----
-
-## Learning Outcome
-
-* Full-stack development using React (Vite) and Node.js
-* REST API creation using Express
-* Database integration with MySQL
-* CRUD operations implementation
-* Modern frontend setup using Vite
-
----
 
 ## License
 
